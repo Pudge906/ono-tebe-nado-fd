@@ -57,6 +57,7 @@
 .cover {
   padding: 165px 50px 50px 50px;
   background-image: url(../images/cover.jpg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 180px;
@@ -67,7 +68,7 @@
 }
 
 .overlay {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   top: 0;
   left: 0;
@@ -244,6 +245,11 @@
   font-size: 20px;
   line-height: 24px;
   margin-bottom: 24px;
+}
+
+.text-footer {
+  width: 693;
+  height: 312;
 }
 
 .about-text:last-child {
